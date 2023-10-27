@@ -1,0 +1,15 @@
+#!/bin/bash
+echo "Guest an animal lowercase only"
+read animal
+actual_animal=("chicken","Chicken","Rooster","rooster","Hen","hen")
+if [[ "${actual_animal[*]}" =~ "${animal}" ]]
+then
+  echo "You are correct, congrats!"
+else 
+  echo "Wrong, it was a chicken"
+fi
+
+
+
+
+
